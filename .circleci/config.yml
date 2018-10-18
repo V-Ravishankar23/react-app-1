@@ -41,6 +41,7 @@ jobs:
       - run: yarn test
 
 workflows:
+  version: 2
   main:
     jobs:
       - build
