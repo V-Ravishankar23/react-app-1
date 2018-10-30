@@ -5,7 +5,7 @@
 version: 2.1
 
 orbs:
-  cowsay: vivek/cow-orb@dev:v4
+  cowsay: vivek/cow-orb@dev:v5
 
 jobs:
   build:
