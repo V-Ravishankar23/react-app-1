@@ -5,7 +5,7 @@
 version: 2.1
 
 orbs:
-  html-val: vivek/html5-validate@dev:v1
+  cowsay: vivek/cow-orb@dev:v1
 
 jobs:
   build:
@@ -45,4 +45,4 @@ workflows:
   main:
     jobs:
       - build
-      - html-val/test
+      - cowsay/cow-says
